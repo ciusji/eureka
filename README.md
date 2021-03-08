@@ -11,6 +11,7 @@ store your idea and then continue working.
 
 ![demo](assets/demo.gif)
 
+
 ## Required Setup
 `eureka` requires a git repository with a `README.md` in the root folder. This
 is the default structure when you create an empty repository with a readme on
@@ -20,6 +21,7 @@ can make it private to keep your ideas secret.
 `eureka` looks at your environment variables to decide what program to use.
 * `$EDITOR` for what to edit your ideas with (falls back to `vi`)
 * `$PAGER` for what to view your ideas with (falls back to `less`)
+
 
 ## Installation
 
@@ -34,6 +36,7 @@ $ cargo install eureka
 ```
 
 _Rust stable version will always be supported_
+
 
 ## Usage
 The first time you run `eureka` it will ask for the path to your ideas repo.
@@ -70,6 +73,7 @@ echo 'alias idea="eureka"' >> ~/.zshrc
 echo 'alias idea="eureka"' >> ~/.bashrc
 ```
 
+
 ## Development
 
 This repo uses a Makefile as an interface for common operations.
@@ -79,6 +83,7 @@ This repo uses a Makefile as an interface for common operations.
    of the project
 3) Run `./eureka` to execute the binary with your changes
 4) Profit :star:
+
 
 ## Improvements
 See [github issues](https://github.com/simeg/eureka/issues).
