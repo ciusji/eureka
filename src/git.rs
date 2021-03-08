@@ -1,3 +1,4 @@
+//! Referrer to https://docs.rs/git2/0.13.17/git2/#creating-a-repository
 use git2::{
     Commit, Cred, Direction, ErrorClass, ErrorCode, ObjectType, Oid, PushOptions, RemoteCallbacks,
     Repository,
