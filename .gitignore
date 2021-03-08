@@ -7,3 +7,5 @@
 
 eureka
 cmake-build-debug/
+idea
+idea/*.xml
