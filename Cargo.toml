@@ -2,13 +2,11 @@
 name = "eureka"
 version = "1.8.1"
 description = "CLI tool to input and store your ideas without leaving the terminal"
-authors = ["Simon Egersand <s.egersand@gmail.com>"]
+authors = ["cius.ji <bajimaster@gmail.com>"]
 categories = ["command-line-interface", "command-line-utilities"]
 keywords = ["cli", "terminal", "productivity", "git", "ideas"]
-
-documentation = "https://github.com/simeg/eureka/blob/master/README.md"
-homepage = "https://github.com/simeg/eureka"
-repository = "https://github.com/simeg/eureka"
+homepage = "git@github.com:ciusji/eureka.git"
+repository = "git@github.com:ciusji/eureka.git"
 readme = "README.md"
 license = "MIT"
 edition = "2018"

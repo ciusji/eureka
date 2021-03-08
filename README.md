@@ -1,4 +1,5 @@
-# eureka [![Crate Status](https://img.shields.io/crates/v/eureka.svg)](https://crates.io/crates/eureka) ![CI](https://github.com/simeg/eureka/workflows/CI/badge.svg) [![codecov](https://codecov.io/gh/simeg/eureka/branch/master/graph/badge.svg)](https://codecov.io/gh/simeg/eureka)
+# eureka
+
 `eureka` is a CLI tool that allows you to quickly write down an idea using your
 preferred editor, and then have the idea committed and pushed to your idea
 git repository.

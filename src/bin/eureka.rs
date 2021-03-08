@@ -32,6 +32,15 @@ impl CliFlag {
             CliFlag::View => "view",
         }
     }
+
+    pub fn long_value(&self) -> &str {
+        match *self {
+            CliFlag::ClearBranch => "clean branch",
+            CliFlag::ClearRepo => "clean repository",
+            CliFlag::ShortView => "short view",
+            CliFlag::View => "idea list",
+        }
+    }
 }
 
 fn main() {
@@ -43,17 +52,17 @@ fn main() {
         .about("Input and store your ideas without leaving the terminal")
         .arg(
             Arg::with_name(ClearRepo.value())
-                .long(ClearRepo.value())
+                .long(ClearRepo.long_value())
                 .help("Clear the stored path to your idea repo"),
         )
         .arg(
             Arg::with_name(ClearBranch.value())
-                .long(ClearBranch.value())
+                .long(ClearBranch.long_value())
                 .help("Clear the stored branch name"),
         )
         .arg(
             Arg::with_name(View.value())
-                .long(View.value())
+                .long(View.long_value())
                 .short(ShortView.value())
                 .help("View ideas with your $PAGER env variable. If unset use less"),
         )
