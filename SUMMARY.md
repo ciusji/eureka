@@ -4,8 +4,6 @@
 
 ## eureka
 
-* [Untitled](eureka/untitled.md)
-
 ---
 
 * [Untitled](untitled.md)
