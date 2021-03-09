@@ -2,9 +2,3 @@
 
 * [eureka](README.md)
 
-## eureka
-
----
-
-* [Untitled](untitled.md)
-
