@@ -1,4 +1,4 @@
-# eureka
+# Eureka
 
 `eureka` is a CLI tool that allows you to quickly write down an idea using your
 preferred editor, and then have the idea committed and pushed to your idea
@@ -11,6 +11,11 @@ store your idea and then continue working.
 **It is developed _by_ and _for_ people who enjoy using the terminal.**
 
 ![demo](assets/demo.gif)
+
+
+## Document
+
+[`eukera` documentation space](https://app.gitbook.com/@ciusji/s/erueka/).
 
 
 ## Required Setup
@@ -87,4 +92,4 @@ This repo uses a Makefile as an interface for common operations.
 
 
 ## Improvements
-See [github issues](https://github.com/simeg/eureka/issues).
+See [github issues](https://github.com/ciusji/eureka/issues).
