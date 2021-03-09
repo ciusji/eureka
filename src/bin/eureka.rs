@@ -34,6 +34,7 @@ impl CliFlag {
     }
 }
 
+/// `RUST_LOG=debug ./eureka` set env log level
 fn main() {
     pretty_env_logger::init();
 
